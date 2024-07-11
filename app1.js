@@ -72,8 +72,8 @@ function songs(x){
 
     art_name.innerHTML = artist_name[x];
     ttl.innerHTML = artist_title[x];
-    art_img.src = `./images/ar${x}.jpg`;
-    ad.src = `./songs/s${x}.mp3`;
+    art_img.src = `ar${x}.jpg`;
+    ad.src = `s${x}.mp3`;
 }
 
 songs(0);
