@@ -7,7 +7,7 @@ const art_img = document.querySelector('#artist');
 const art_name = document.querySelector('#name');
 const playSong = document.querySelector('#playsong');
 
-const artist_name = ['Anirudh Ravichandren', 'Sheweta Mohan', 'Vijay Antony','Harris Jayaraj', 'Yuvan Shankar Raja', 'Karthik', 'D.Imman', 'Chinmayi', 'Suchitra', 'A.R.Rahman'];
+const artist_name = ['Anirudh Ravichandren', 'Sheweta Mohan', 'Vijay Antony','Harris Jayaraj', 'Yuvan Shankar Raja', 'Karthik', 'D.Imman', 'Chinmayi', 'Suchitra'];
 const artist_title = ['Thangamey','Innum Konjam Neram','Uchimanda','Vaarayo Vaarayo','Plakkatu pakkathile','Ale Ale','Odi Odi Vilayada','Sara Sara Saara Kathu','Ammadi Aathadi'];
 
 playSong.addEventListener('click',effect)
